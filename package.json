@@ -3,6 +3,7 @@
   "name": "realtime-playground-agent",
   "type": "module",
   "scripts": {
+    "build": "tsc",
     "clean": "rm -rf dist",
     "clean:build": "pnpm clean && pnpm build",
     "lint": "eslint -f unix \"src/**/*.ts\"",
