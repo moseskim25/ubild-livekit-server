@@ -12,12 +12,12 @@
     "format:write": "prettier --write \"**/*.{ts,tsx,md,json}\""
   },
   "devDependencies": {
+  },
+  "dependencies": {
     "@types/uuid": "^10.0.0",
     "dotenv": "^16.4.5",
     "tsx": "^4.19.1",
-    "typescript": "^5.0.0"
-  },
-  "dependencies": {
+    "typescript": "^5.0.0",
     "@livekit/agents": "^0.3.2",
     "@livekit/agents-plugin-openai": "^0.3.2",
     "@livekit/rtc-node": "^0.9.1",
