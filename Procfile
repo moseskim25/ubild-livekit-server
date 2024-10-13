@@ -1,1 +1,1 @@
-web: pnpm run start
+worker: pnpm run start
